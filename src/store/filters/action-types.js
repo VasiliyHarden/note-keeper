@@ -1,0 +1,4 @@
+export const actionTypes = {
+  SET_TEXT_FILTER: 'SET_TEXT_FILTER',
+  CLEAR_TEXT_FILTER: 'CLEAR_TEXT_FILTER'
+}

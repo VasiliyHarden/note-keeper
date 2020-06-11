@@ -1,0 +1,53 @@
+@import '../../../../../styles/settings';
+
+.color-picker {
+  display: flex;
+  height: 7.2rem;
+  margin-bottom: 0.3rem;
+  border-radius: 0.3rem;
+
+  position: relative;
+}
+
+.color-picker:focus {
+  outline: 0;
+}
+
+.color-picker--blurred {
+  justify-content: center;
+  align-items: center;
+}
+
+.color-picker--focused {
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: flex-start;
+}
+
+.color-picker__msg {
+  color: lighten($text-color, 30%);
+  font-size: 1.3rem;
+}
+
+.color-pick {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 0.4rem;
+  cursor: pointer;
+}
+
+.color-picker__cancel-button {
+  color: $text-color;
+  position: absolute;
+  top: 0.2rem;
+  right: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.color-picker__cancel-button:hover {
+  transform: scale(1.2);
+}

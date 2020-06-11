@@ -1,0 +1,26 @@
+@import '../../../../styles/settings';
+
+.add-btn {
+  background-color: darken($secondary-color, 20%);
+  border: 0;
+  border-radius: 50%;
+  bottom: 3rem;
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  height: 50px;
+  position: fixed;
+  right: calc(3rem - 100vw + 100%);
+  transition: box-shadow $transition-time ease-in-out;
+  width: 50px;
+
+  &:hover {
+    background-color: darken($secondary-color, 30%);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px $transparent-secondary-color;
+    background-color: darken($secondary-color, 30%);
+  }
+}

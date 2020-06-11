@@ -1,0 +1,26 @@
+@import '../../../../styles/settings';
+
+.btn-group {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+
+  &__btn {
+    background-color: $main-color;
+    border: 0;
+    color: $text-color;
+    cursor: pointer;
+    // margin-right: 1.5rem;
+    padding: 0.5rem 1.2rem; 
+    
+    // &:last-child {
+    //   margin-right: 1rem;
+    // }
+
+    &:focus, &:hover {
+      background-color: $secondary-color;
+      color: $main-color;
+      outline: 0;
+    }
+  }
+}

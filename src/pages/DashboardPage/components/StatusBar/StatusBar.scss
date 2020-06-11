@@ -1,0 +1,18 @@
+@import '../../../../styles/settings';
+
+.status-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: $warning-color;
+  padding: 0.5rem;
+}
+
+.status-bar__btn {
+  background-color: $warning-color;
+  border: 0;
+  color: $text-color;
+  margin-left: 1.5rem;
+  padding: 0;
+  cursor: pointer;
+}

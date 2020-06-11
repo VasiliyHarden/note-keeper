@@ -1,0 +1,28 @@
+@import '../../../../styles/settings';
+
+.note {
+  box-shadow: 0 1px 5px rgba(155, 89, 182, 0.15);
+  border-radius: 0.5rem;
+  margin: 1rem 0.5rem;
+  padding: 0.7rem 1rem;
+  word-break: break-all;
+
+  transition: box-shadow $transition-time ease-in-out;
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px $transparent-secondary-color;
+  }
+}
+
+.note__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0 0.5rem;
+}
+
+.note__description {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+  white-space: pre-wrap;
+}
