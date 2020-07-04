@@ -12,5 +12,7 @@ body {
   margin: 0;
   background-color: $main-color;
   color: $text-color;
+  min-height: $min-app-height;
   min-width: $min-app-width;
+  position: relative;
 }
