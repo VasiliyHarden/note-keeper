@@ -7,12 +7,12 @@ import LoginPage from './pages/LoginPage/LoginPage';
 
 const NoteKeeperApp = () => {
   return(
-    <LoginPage />
-  // <Fragment>
-  //   <Header />
-  //   <DashboardPage />
-  //   <Modal />
-  // </Fragment>
+    // <LoginPage />
+    <Fragment>
+      <Header />
+      <DashboardPage />
+      <Modal />
+    </Fragment>
 )};
 
 export default NoteKeeperApp;
